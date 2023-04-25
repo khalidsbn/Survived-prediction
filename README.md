@@ -9,6 +9,4 @@ The project consists of several steps:
 
 **2- Data preparation:** The dataset is cleaned and preprocessed using pandas & Python to prepare it for machine learning algorithms.
 
-**3- Model selection:** Different machine learning algorithms are tested and evaluated to find the best one for this specific problem.
-
-**4- Model training and evaluation:** The best model is trained on the dataset and evaluated using performance metrics such as accuracy and F1-score.
+**3- Model training and evaluation:** The best model is trained on the dataset and evaluated using performance metrics such as accuracy and F1-score.
