@@ -1,12 +1,56 @@
-# Survived-prediction
+<div align="center">
+    <h1>Survived Prediction</h1>
+</div>
+
+## Kaggle competition (Kaggle dataset):
+
+### Introduction
+Use machine learning to create a model that predicts which passengers survived the Titanic shipwreck.
+
+### Repository Structure
+* **README.md**: The top-level README for reviewers of this project
+* **requirements.txt**: requirements file; including the needed tools
+* **notebooks**: 
+    - **01.data_exploration.ipynb**: Visualizing the dataset and getting the first touch with the data.
+    - **02.data_processing.ipynb**: Clean and transfer some features with automatic functions.
+    - **03.model.ipynb**: Random forest classifier model.
+
+### Libraries
+* pandas
+* NumPy
+* seaborn
+* matplotlib
+* scikit-learn
+
+### Algorithm
+* Random forest
+
+## Getting the notebooks running localy with Jupyter
+1. Colone this repo
+```
+git clone https://github.com/khalidsbn/Survived-prediction.git
+```
+2. Open the notebooks with Jupyter 
 
 
-This is a machine learning project aimed at predicting whether a passenger survived the sinking of the Titanic based on various input features. The project uses a dataset of Titanic passengers that includes information such as the passenger's age, gender, class, and fare paid, as well as whether they survived the disaster or not.
+## Here is a quick summary of the project
 
-The project consists of several steps:
+Here some plots from data exploration:
 
-**1- Exploring data: ** Using Matplotlib and seaborn to get a general idea about the dataset.
+Age districution of the passengers:
+<img src="./data/img/age_distribution.png" width="800"/>
 
-**2- Data preparation:** The dataset is cleaned and preprocessed using pandas & Python to prepare it for machine learning algorithms.
+There are three classes to book on the Titanic ship. Here are the passengers who survived and who didn't in each class.
+<img src="./data/img/survived_class.png" width="800"/>
 
-**3- Model training and evaluation:** The best model is trained on the dataset and evaluated using performance metrics such as accuracy and F1-score.
+Male and female who survived and who didn't:
+<img src="./data/img/survived_sex.png" width="800"/>
+
+Confusion Matrix:
+<img src="./data/img/confusion_matrix.png" width="800"/>
+
+Classification repot:
+<img src="./data/img/class_report.png" width="800"/>
+
+Feature importances:
+<img src="./data/img/feature_importances.png" width="800"/>
